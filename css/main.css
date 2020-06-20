@@ -210,6 +210,7 @@ footer {
   text-decoration: none;
   display: inline-block;
   border: none;
+  cursor: pointer;
 }
 .btn--theme--white {
   background: #fff;
@@ -410,6 +411,9 @@ footer {
   position: relative;
 }
 .interactive-avatar--active {
+  border-color: #0f5a47;
+}
+.interactive-avatar:hover {
   border-color: #0f5a47;
 }
 
