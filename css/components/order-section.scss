@@ -1,3 +1,16 @@
 .order-section {
   background: url("../img/decor/order-background.png") center bottom / cover no-repeat;
+
+&:after {
+    content: url("../img/decor/leaf-form.png");
+    position: absolute;
+    bottom: 45px;
+    right: 10px;
+}
+&:before {
+  position: absolute;
+  bottom: 30px;
+  left: 2%;
+  content: url("../img/decor/berry.png");
+}
 }

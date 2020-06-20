@@ -493,6 +493,18 @@ footer {
 .order-section {
   background: url("../img/decor/order-background.png") center bottom/cover no-repeat;
 }
+.order-section:after {
+  content: url("../img/decor/leaf-form.png");
+  position: absolute;
+  bottom: 45px;
+  right: 10px;
+}
+.order-section:before {
+  position: absolute;
+  bottom: 30px;
+  left: 2%;
+  content: url("../img/decor/berry.png");
+}
 
 .fixed-menu {
   position: fixed;
