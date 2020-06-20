@@ -300,10 +300,10 @@ footer {
   flex-direction: column;
   justify-content: center;
 }
-.section--font-color-green {
+.section--font-color--green {
   color: #0b4d3c;
 }
-.section--font-color-green .section__title {
+.section--font-color--green .section__title {
   color: inherit;
 }
 
@@ -444,6 +444,9 @@ footer {
 .form__row {
   display: flex;
   margin-bottom: 15px;
+}
+.form__row:last-child {
+  margin-bottom: 0;
 }
 
 .form__block {
