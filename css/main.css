@@ -491,9 +491,7 @@ footer {
 }
 
 .order-section {
-  background: url("../img/decor/order-background.png") center no-repeat;
-  height: 100%;
-  width: 100%;
+  background: url("../img/decor/order-background.png") center bottom/cover no-repeat;
 }
 
 .fixed-menu {
