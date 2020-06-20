@@ -6,6 +6,8 @@
   border-radius: 100px;
   line-height: 1;
   text-decoration: none;
+  display: inline-block;
+  border: none;
 }
 .btn--theme--white {
   background: #fff;
@@ -14,4 +16,20 @@
 .btn--theme--white:hover {
   color: #fff;
   background: #0b4d3c;
+}
+.btn--theme--green {
+  color: #fff;
+  background: #0b4d3c;
+}
+.btn--theme--green:hover {
+  color: #0b4d3c;
+  background: #fff;
+}
+.btn--theme--transparent {
+  background: transparent;
+  color: #000;
+  text-transform: none;
+}
+.btn--theme--transparent:hover {
+  color: #0b4d3c;
 }

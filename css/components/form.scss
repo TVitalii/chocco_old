@@ -14,7 +14,6 @@
 .form__row {
   display: flex;
   margin-bottom: 20px;
-
 }
 
 .form__block {
@@ -30,8 +29,7 @@
   width: 100%;
   border: none;
   padding: 20px 10px;
-   border: solid 30px transparent;
-  border-color: solid 3px #dee2bd;
+  border: solid 3px transparent;
 
   &--textarea {
     height: 180px;
@@ -39,11 +37,12 @@
   }
 
   &:focus {
-    border-color: solid 3pd #dee2bd;
+    border-color: #dee2bd;
+    outline: none;
   }
 }
 
 .form__controls {
   display: flex;
-  flex-wrap: wrap;
+
 }

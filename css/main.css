@@ -208,6 +208,8 @@ footer {
   border-radius: 100px;
   line-height: 1;
   text-decoration: none;
+  display: inline-block;
+  border: none;
 }
 .btn--theme--white {
   background: #fff;
@@ -216,6 +218,22 @@ footer {
 .btn--theme--white:hover {
   color: #fff;
   background: #0b4d3c;
+}
+.btn--theme--green {
+  color: #fff;
+  background: #0b4d3c;
+}
+.btn--theme--green:hover {
+  color: #0b4d3c;
+  background: #fff;
+}
+.btn--theme--transparent {
+  background: transparent;
+  color: #000;
+  text-transform: none;
+}
+.btn--theme--transparent:hover {
+  color: #0b4d3c;
 }
 
 .benefits {
@@ -281,6 +299,12 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.section--font-color-green {
+  color: #0b4d3c;
+}
+.section--font-color-green .section__title {
+  color: inherit;
 }
 
 .section__title {
@@ -434,20 +458,19 @@ footer {
   width: 100%;
   border: none;
   padding: 20px 10px;
-  border: solid 30px transparent;
-  border-color: solid 3px #dee2bd;
+  border: solid 3px transparent;
 }
 .form__input--textarea {
   height: 180px;
   resize: none;
 }
 .form__input:focus {
-  border-color: solid 3pd #dee2bd;
+  border-color: #dee2bd;
+  outline: none;
 }
 
 .form__controls {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .radio {
@@ -460,7 +483,7 @@ footer {
   border-radius: 0;
 }
 .radio--checkbox .radio__visible::before {
-  background: url("../img/icons/tick.png");
+  background: url("../img/icons/tick.png") center center no-repeat;
 }
 
 .radio__elem {
@@ -477,7 +500,7 @@ footer {
   border-radius: 50%;
   background: #fff;
 }
-.radio__visible::before {
+.radio__visible:before {
   content: "";
   width: 14px;
   height: 14px;
