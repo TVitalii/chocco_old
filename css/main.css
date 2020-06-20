@@ -201,7 +201,7 @@ footer {
 }
 
 .btn {
-  font-style: 19px;
+  font-weight: 19px;
   font-weight: bold;
   padding: 20px 45px;
   text-transform: uppercase;
@@ -443,7 +443,7 @@ footer {
 
 .form__row {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .form__block {
@@ -478,6 +478,7 @@ footer {
   cursor: pointer;
   -webkit-user-select: none;
           user-select: none;
+  margin: 0px 20px 10px 0;
 }
 .radio--checkbox .radio__visible {
   border-radius: 0;
@@ -531,8 +532,8 @@ footer {
 
 .fixed-menu {
   position: fixed;
-  top: 20%;
-  right: 20%;
+  top: 30%;
+  right: 3%;
 }
 
 .fixed-meny__item {

@@ -2,8 +2,10 @@
   display: flex;
   cursor: pointer;
   user-select: none;
+  margin: 0px 20px 10px 0;
 
   &--checkbox {
+
     .radio__visible {
       border-radius: 0;
 
