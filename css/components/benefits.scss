@@ -5,13 +5,13 @@
 
 .benefits__item {
   flex: 1;
-  padding: 0 5%;
+  padding: 0 3%;
   position: relative;
 
   &::before {
     content: url("../img/decor/separator.png");
     position: absolute;
-    top: 30px;
+    top: 50px;
     right: 0;
     transform: translatex(50%);
   }

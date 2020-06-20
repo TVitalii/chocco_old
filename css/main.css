@@ -225,13 +225,13 @@ footer {
 
 .benefits__item {
   flex: 1;
-  padding: 0 5%;
+  padding: 0 3%;
   position: relative;
 }
 .benefits__item::before {
   content: url("../img/decor/separator.png");
   position: absolute;
-  top: 30px;
+  top: 50px;
   right: 0;
   transform: translatex(50%);
 }
@@ -257,6 +257,7 @@ footer {
   background: #f2f5f4;
   border-radius: 50%;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .benefit__icon {
@@ -271,6 +272,7 @@ footer {
 .benefit__title {
   font-size: 27px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .section {
@@ -362,6 +364,17 @@ footer {
 .reviews__switcher {
   display: flex;
   justify-content: center;
+}
+
+.reviews-section {
+  position: relative;
+  background: url("../img/decor/berries.png") right top no-repeat;
+}
+.reviews-section::before {
+  content: url("../img/decor/berries-left.png");
+  position: absolute;
+  bottom: -80px;
+  left: 0;
 }
 
 .interactive-avatar {
