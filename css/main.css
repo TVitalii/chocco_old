@@ -220,12 +220,12 @@ footer {
 
 .benefits {
   display: flex;
-  padding: 50px 0;
+  padding: 65px 0;
 }
 
 .benefits__item {
   flex: 1;
-  padding: 0 3%;
+  padding: 0 5%;
   position: relative;
 }
 .benefits__item::before {
@@ -261,11 +261,16 @@ footer {
 
 .benefit__icon {
   width: 75px;
-  height: 69px;
+  height: 75px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.benefit__title {
+  font-size: 27px;
+  font-weight: bold;
 }
 
 .section {
@@ -279,7 +284,7 @@ footer {
 .section__title {
   font-size: 48px;
   font-weight: bold;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
   text-align: center;
   text-transform: uppercase;
   color: #000;
@@ -337,9 +342,10 @@ footer {
 }
 
 .reviews__title {
-  font-weight: 30px;
+  font-size: 30px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  margin-top: 10px;
   color: #000;
 }
 

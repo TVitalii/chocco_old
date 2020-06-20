@@ -11,11 +11,17 @@
   border-radius: 50%;
   overflow: hidden;
 }
+
 .benefit__icon {
   width: 75px;
-  height: 69px;
+  height: 75px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+
+.benefit__title {
+  font-size: 27px;
+  font-weight: bold;
 }
