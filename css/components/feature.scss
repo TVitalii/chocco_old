@@ -3,11 +3,11 @@
 }
 
 .feature__icon  {
-  width: 50px;
-  margin-right: 10px;
+  width: rem(50px);
+  margin-right: rem(10px);
 }
 
 .feature__text {
-  font-style: 16px;
-  max-width: 85px;
+  font-style: rem(16px);
+  max-width: rem(85px);
 }

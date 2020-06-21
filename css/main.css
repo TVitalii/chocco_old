@@ -1,5 +1,9 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+html {
+  font-size: 18px;
+}
+
 html,
 body {
   margin: 0;
@@ -9,7 +13,6 @@ body {
 body {
   font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
   color: white;
-  font-size: 16px;
   line-height: 1.42;
   position: relative;
   color: #666;
@@ -19,14 +22,15 @@ body {
   flex-direction: column;
   width: 100%;
   min-height: 100%;
-  min-width: 960px;
   overflow: hidden;
   position: relative;
 }
 
 .container {
-  width: 940px;
+  width: 95%;
+  max-width: 940px;
   margin: 0 auto;
+  position: relative;
 }
 
 a {
@@ -79,20 +83,20 @@ footer {
   background: url("../img/decor/branch.png") right bottom no-repeat;
   background-color: #61c4d9;
   height: 100vh;
-  min-height: 650px;
+  min-height: 36.1111111111rem;
   color: #fff;
   position: relative;
 }
 .hero::before {
   position: absolute;
-  bottom: -40px;
+  bottom: -2.2222222222rem;
   left: 2%;
   content: url("../img/decor/leaf.png");
 }
 .hero::after {
   content: url("../img/decor/berries-and-leaves.png");
   position: absolute;
-  bottom: -40px;
+  bottom: -2.2222222222rem;
   right: 0;
 }
 
@@ -105,21 +109,21 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 25px 0 45px;
+  padding: 1.3888888889rem 0 2.5rem;
   background: url("../img/decor/bars.png") right center/50% auto no-repeat;
 }
 
 .hero__title {
-  font-size: 48px;
+  font-size: 2.6666666667rem;
   line-height: 1.3;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 1.1111111111rem;
   text-transform: uppercase;
 }
 
 .hero__subtitle {
-  font-size: 21px;
-  margin-bottom: 50px;
+  font-size: 1.1666666667rem;
+  margin-bottom: 2.7777777778rem;
   padding-right: 10%;
 }
 
@@ -130,7 +134,7 @@ footer {
 }
 
 .logo__img {
-  width: 60px;
+  width: 3.3333333333rem;
 }
 
 .menu__list {
@@ -144,23 +148,23 @@ footer {
 }
 
 .menu__item {
-  margin-right: 25px;
+  margin-right: 1.3888888889rem;
 }
 .menu__item:last-child {
   margin-right: 0;
 }
 
 .contacts {
-  font-size: 24px;
+  font-size: 1.3333333333rem;
   text-decoration: none;
   display: flex;
   align-items: center;
 }
 
 .contacts__icon-elem {
-  width: 14px;
-  height: 14px;
-  margin-right: 6px;
+  width: 0.7777777778rem;
+  height: 0.7777777778rem;
+  margin-right: 0.3333333333rem;
 }
 
 .headline {
@@ -168,7 +172,7 @@ footer {
 }
 
 .headline__title {
-  margin-bottom: 25px;
+  margin-bottom: 1.3888888889rem;
 }
 
 .headline__subtitle {
@@ -180,7 +184,7 @@ footer {
 }
 
 .features__item {
-  margin-right: 45px;
+  margin-right: 2.5rem;
 }
 .features__item:last-child {
   margin-right: 0;
@@ -191,21 +195,21 @@ footer {
 }
 
 .feature__icon {
-  width: 50px;
-  margin-right: 10px;
+  width: 2.7777777778rem;
+  margin-right: 0.5555555556rem;
 }
 
 .feature__text {
-  font-style: 16px;
-  max-width: 85px;
+  font-style: 0.8888888889rem;
+  max-width: 4.7222222222rem;
 }
 
 .btn {
-  font-weight: 19px;
+  font-weight: 1.0555555556rem;
   font-weight: bold;
-  padding: 20px 45px;
+  padding: 1.1111111111rem 2.5rem;
   text-transform: uppercase;
-  border-radius: 100px;
+  border-radius: 5.5555555556rem;
   line-height: 1;
   text-decoration: none;
   display: inline-block;
@@ -239,7 +243,7 @@ footer {
 
 .benefits {
   display: flex;
-  padding: 65px 0;
+  padding: 3.6111111111rem 0;
 }
 
 .benefits__item {
@@ -250,7 +254,7 @@ footer {
 .benefits__item::before {
   content: url("../img/decor/separator.png");
   position: absolute;
-  top: 50px;
+  top: 2.7777777778rem;
   right: 0;
   transform: translatex(50%);
 }
@@ -270,18 +274,18 @@ footer {
 
 .benefit__image-wrapper {
   display: inline-block;
-  width: 126px;
-  height: 126px;
+  width: 7rem;
+  height: 7rem;
   position: relative;
   background: #f2f5f4;
   border-radius: 50%;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 1.1111111111rem;
 }
 
 .benefit__icon {
-  width: 75px;
-  height: 75px;
+  width: 4.1666666667rem;
+  height: 4.1666666667rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -289,14 +293,14 @@ footer {
 }
 
 .benefit__title {
-  font-size: 27px;
+  font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 1.1111111111rem;
 }
 
 .section {
   height: 100vh;
-  min-height: 650px;
+  min-height: 36.1111111111rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -309,9 +313,9 @@ footer {
 }
 
 .section__title {
-  font-size: 48px;
+  font-size: 2.6666666667rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 0.5555555556rem;
   text-align: center;
   text-transform: uppercase;
   color: #000;
@@ -324,28 +328,28 @@ footer {
 .benefits-section::before {
   content: url("../img/decor/bars-and-berries.png");
   position: absolute;
-  bottom: -80px;
+  bottom: -4.4444444444rem;
   left: 0;
 }
 
 .reviews__display {
   background: #f8faf9 url("../img/decor/drown-berries.png") right top no-repeat;
-  padding: 50px 45px 35px;
-  margin-bottom: 20px;
+  padding: 2.7777777778rem 2.5rem 1.9444444444rem;
+  margin-bottom: 1.1111111111rem;
   overflow: hidden;
   position: relative;
 }
 .reviews__display::before {
   content: "";
   display: block;
-  width: 90px;
-  height: 90px;
+  width: 5rem;
+  height: 5rem;
   background: #fff;
   border-radius: 50%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: -55px;
+  top: -3.0555555556rem;
 }
 
 .reviews__display-inner {
@@ -353,8 +357,8 @@ footer {
 }
 
 .reviews__avatar {
-  width: 255px;
-  height: 260px;
+  width: 14.1666666667rem;
+  height: 14.4444444444rem;
 }
 
 .reviews__avatar-img {
@@ -365,23 +369,23 @@ footer {
 
 .reviews__content {
   flex: 1;
-  margin-left: 20px;
+  margin-left: 1.1111111111rem;
 }
 
 .reviews__title {
-  font-size: 30px;
+  font-size: 1.6666666667rem;
   font-weight: bold;
-  margin-bottom: 15px;
-  margin-top: 10px;
+  margin-bottom: 0.8333333333rem;
+  margin-top: 0.5555555556rem;
   color: #000;
 }
 
 .reviews__text {
-  margin-bottom: 35px;
+  margin-bottom: 1.9444444444rem;
 }
 
 .reviews__author {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: bold;
   color: #000;
 }
@@ -398,14 +402,14 @@ footer {
 .reviews-section::before {
   content: url("../img/decor/berries-left.png");
   position: absolute;
-  bottom: -80px;
+  bottom: -4.4444444444rem;
   left: 0;
 }
 
 .interactive-avatar {
-  width: 80px;
-  height: 80px;
-  border: 6px solid transparent;
+  width: 4.4444444444rem;
+  height: 4.4444444444rem;
+  border: 0.3333333333rem solid transparent;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
@@ -439,7 +443,7 @@ footer {
 
 .form__col {
   flex: 1;
-  margin-right: 20px;
+  margin-right: 1.1111111111rem;
 }
 .form__col:last-child {
   margin-right: 0;
@@ -447,7 +451,7 @@ footer {
 
 .form__row {
   display: flex;
-  margin-bottom: 15px;
+  margin-bottom: 0.8333333333rem;
 }
 .form__row:last-child {
   margin-bottom: 0;
@@ -455,7 +459,7 @@ footer {
 
 .form__block {
   flex: 1;
-  margin-right: 20px;
+  margin-right: 1.1111111111rem;
 }
 .form__block:last-child {
   margin-right: 0;
@@ -464,11 +468,11 @@ footer {
 .form__input {
   width: 100%;
   border: none;
-  padding: 20px 10px;
-  border: solid 3px transparent;
+  padding: 1.1111111111rem 0.5555555556rem;
+  border: solid 0.1666666667rem transparent;
 }
 .form__input--textarea {
-  height: 180px;
+  height: 10rem;
   resize: none;
 }
 .form__input:focus {
@@ -485,7 +489,7 @@ footer {
   cursor: pointer;
   -webkit-user-select: none;
           user-select: none;
-  margin: 0px 20px 10px 0;
+  margin: 0rem 1.1111111111rem 0.5555555556rem 0;
 }
 .radio--checkbox .radio__visible {
   border-radius: 0;
@@ -502,16 +506,16 @@ footer {
 }
 
 .radio__visible {
-  width: 26px;
-  height: 26px;
+  width: 1.4444444444rem;
+  height: 1.4444444444rem;
   position: relative;
   border-radius: 50%;
   background: #fff;
 }
 .radio__visible:before {
   content: "";
-  width: 14px;
-  height: 14px;
+  width: 0.7777777778rem;
+  height: 0.7777777778rem;
   background: #365a49;
   border-radius: 50%;
   position: absolute;
@@ -527,12 +531,12 @@ footer {
 .order-section:after {
   content: url("../img/decor/leaf-form.png");
   position: absolute;
-  bottom: 45px;
-  right: 10px;
+  bottom: 2.5rem;
+  right: 0.5555555556rem;
 }
 .order-section:before {
   position: absolute;
-  bottom: 30px;
+  bottom: 1.6666666667rem;
   left: 2%;
   content: url("../img/decor/berry.png");
 }
@@ -544,24 +548,24 @@ footer {
 }
 
 .fixed-meny__item {
-  margin-bottom: 5px;
+  margin-bottom: 0.2777777778rem;
 }
 .fixed-meny__item--active .fixed-meny__link {
   border-color: #fff;
 }
 
 .fixed-meny__link {
-  width: 16px;
-  height: 16px;
+  width: 0.8888888889rem;
+  height: 0.8888888889rem;
   border-radius: 50%;
-  border: 1px solid transparent;
+  border: 0.0555555556rem solid transparent;
   display: block;
   position: relative;
 }
 .fixed-meny__link::before {
   content: "";
-  width: 6px;
-  height: 6px;
+  width: 0.3333333333rem;
+  height: 0.3333333333rem;
   border-radius: 50%;
   background: #fff;
   position: absolute;

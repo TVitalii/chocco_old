@@ -17,14 +17,15 @@ body {
   flex-direction: column;
   width: 100%;
   min-height: 100%;
-  min-width: 960px;
   overflow: hidden;
   position: relative;
 }
 
 .container {
-  width: 940px;
+  width: 95%;
+  max-width: 940px;
   margin: 0 auto;
+  position: relative;
 }
 
 a {

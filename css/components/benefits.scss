@@ -1,6 +1,6 @@
 .benefits {
   display: flex;
-  padding: 65px 0;
+  padding: rem(65px) 0;
 }
 
 .benefits__item {
@@ -11,7 +11,7 @@
   &::before {
     content: url("../img/decor/separator.png");
     position: absolute;
-    top: 50px;
+    top: rem(50px);
     right: 0;
     transform: translatex(50%);
   }

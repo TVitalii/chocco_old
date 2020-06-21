@@ -1,3 +1,7 @@
+html {
+  font-size: $baseFontSize;
+}
+
 html,
 body {
   margin: 0;
@@ -7,7 +11,6 @@ body {
 body {
   font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
   color: white;
-  font-size: 16px;
   line-height: 1.42;
   position: relative;
   color: #666;
@@ -17,14 +20,16 @@ body {
   flex-direction: column;
   width: 100%;
   min-height: 100%;
-  min-width: 960px;
+
   overflow: hidden;
   position: relative;
 }
 
 .container {
-  width: 940px;
+  width: 95%;
+  max-width: $containerWidth;
   margin: 0 auto;
+  position: relative;
 
 }
 
