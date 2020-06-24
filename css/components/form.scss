@@ -1,5 +1,10 @@
 .form {
   display: flex;
+  flex-direction: column;
+
+  @include tablets {
+    padding: 0 19%;
+  }
 }
 
 .form__col {
@@ -9,11 +14,15 @@
   &:last-child {
     margin-right: 0;
   }
+
+  @include tablets {
+    margin-right: 0;
+  }
 }
 
 .form__row {
   display: flex;
-  margin-bottom: rem(15px);
+  margin-bottom: rem(18px);
   
   &:last-child {
     margin-bottom: 0;
@@ -44,9 +53,18 @@
     border-color: #dee2bd;
     outline: none;
   }
+
+  @include tablets {
+    padding: rem(5px) rem(5px);
+  }
 }
 
 .form__controls {
   display: flex;
 
+}
+
+.form__btn {
+  display: flex;
+  justify-content: center;
 }
