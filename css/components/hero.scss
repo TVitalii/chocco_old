@@ -45,7 +45,10 @@
     text-align: center;
 
     &::before {
-      content: url("../img/decor/bars-and-berries-and-leaves.png");
+      content: "";
+      width: rem(316px);
+      height: rem(330px);
+      background: url("../img/decor/bars-and-berries-and-leaves.png") center center / contain no-repeat;
       margin-bottom: rem(17px);
     }
   }
@@ -78,6 +81,11 @@
   padding-right: 10%;
 
   @include tablets {
-    padding: 0 25;
+    padding: 0 25%;
+  }
+
+  
+  @include phones {
+    padding: 0 16%;
   }
 }

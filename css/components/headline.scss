@@ -8,4 +8,8 @@
 
 .headline__subtitle {
   padding: 0 25%;
+
+  @include phone {
+    padding: 0 5%;
+  }
 }
