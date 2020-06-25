@@ -13,20 +13,20 @@
 
   &--theme--white {
     background: #fff;
-    color: #0b4d3c;
+    color: $darkGreen;
 
     &:hover {
       color: #fff;
-      background: #0b4d3c;
+      background: $darkGreen;
     }
   }
 
   &--theme--green {
     color: #fff;
-    background: #0b4d3c;
+    background: $darkGreen;
 
     &:hover {
-      color: #0b4d3c;
+      color: $darkGreen;
       background: #fff;
     }
   }
@@ -37,7 +37,7 @@
     text-transform: none;
 
     &:hover {
-      color: #0b4d3c;
+      color: $darkGreen;
     }
   }
 }
