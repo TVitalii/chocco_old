@@ -9,7 +9,7 @@
 .headline__subtitle {
   padding: 0 25%;
 
-  @include phone {
+  @include phones {
     padding: 0 5%;
   }
 }
