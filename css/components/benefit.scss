@@ -16,14 +16,16 @@
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: rem(20px);
+    
 }
 
 .benefit__icon {
-  width: rem(9px);
-  height: rem(9px);
+  width: rem(100px);
+  height: rem(100px);
+  display: flex;
   position: absolute;
-
-
+  top: 10%;
+  right: 10%;
 
 }
 
@@ -31,5 +33,6 @@
   font-size: rem(27px);
   font-weight: bold;
   margin-bottom: rem(20px);
+ 
 
 }
